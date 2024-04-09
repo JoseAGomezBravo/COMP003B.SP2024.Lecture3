@@ -10,6 +10,7 @@ namespace COMP003B.SP2024.Lecture3.Models
         public int Id { get; set; }
         [Required]
         [StringLength(100)]
+        [Display(Name="Full Name")]
         public string Name { get; set; }
         [Required]
         [Range(0, 120)]
