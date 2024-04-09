@@ -25,7 +25,7 @@ namespace COMP003B.SP2024.Lecture3
             app.UseRouting();
 
             app.UseAuthorization();
-
+            // TODO: modeify controller route to default to StudentsController
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Students}/{action=Index}/{id?}");
